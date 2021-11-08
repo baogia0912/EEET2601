@@ -22,7 +22,7 @@ int main(void) {
 
     } 
 
-    printf("\n\nThere are %d marks between 50 and 100 are: \n\n", index);
+    printf("\n\nThere are %d marks between 50 and 100 and they are: \n\n", index);
 
     for (int i = 0; i < index; i++) printf("%3d ", marks_above_50[i]);
 
